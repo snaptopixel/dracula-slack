@@ -110,7 +110,7 @@ document.addEventListener('DOMContentLoaded', function() {
         #msg_form #msg_input { border-color: transparent; }
     `;
     $.ajax({
-        url: 'https://cdn.rawgit.com/laCour/slack-night-mode/master/css/raw/black.css',
+        url: 'https://raw.githubusercontent.com/udaykd09/black-css/master/black.css',
         success: function(css) {
             $('<style></style>').appendTo('head').html(css + tt__customCss);
         }
