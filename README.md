@@ -4,6 +4,8 @@
 
 MacOS:
 
+`cp /Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/ssb-interop.js /Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/ssb-interop_backup.js`
+
 `cp dracula-slack/slack-ssb-interop.js /Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/ssb-interop.js`
 
 Restart slack
